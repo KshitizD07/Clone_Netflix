@@ -21,10 +21,35 @@
 }
 
 nav{
-    max-width: 80vw;
+    max-width: 60vw;
     margin:auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
+}
+
+nav img{
+    color: red;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+nav buttons{
+    position: relative;
+    z-index:10;
+}
+.hero{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+}
+.hero :first-child{
+    font-weight: bolder;
+    font-size: 48px;
 }
